@@ -33,4 +33,7 @@ One kana (hiragana + katakana), every hour.
     # configure the scheduler with command "node bot.js"
     heroku addons:open scheduler
 
+    # make sure the bot won't post on deploy
+    heroku ps:scale web=0
+
     git push heroku master # deploy to heroku
