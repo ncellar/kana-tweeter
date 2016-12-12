@@ -1,0 +1,27 @@
+{
+  "//1": "https://docs.npmjs.com/files/package.json",
+
+  "name": "kana-tweeter",
+  "version": "0.0.1",
+  "description": "Bot that tweets one kana every hour",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "twit": "^2.2.5"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "repository": {
+    "url": "https://gomix.com/#!/project/kana-tweeter"
+  },
+  "keywords": [
+    "twitter",
+    "kana",
+    "hiragana",
+    "katakana"
+  ],
+  "license": "BSD-3-Clause"
+}
