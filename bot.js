@@ -18,7 +18,7 @@ if (diff > 1000 * 60 * 60)
     let index = Math.floor(Math.random() * (kanas.length - 1))
     let kana  = kanas[index].split("\t")
 
-    let status = `The sound '${kana[2]}' is written ${kana[0]} (hiragana) or ${kana[1]} (katakana).`
+    let status = `The sound ${kana[2]} is written ${kana[0]} (hiragana) or ${kana[1]} (katakana).`
 
     let T = new Twit({
       consumer_key:         process.env.TWITTER_CONSUMER_KEY,

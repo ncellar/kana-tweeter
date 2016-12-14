@@ -15,8 +15,8 @@
 ご	ゴ	GO
 さ	サ	SA
 ざ	ザ	ZA
-し	シ	SI
-じ	ジ	ZI
+し	シ	SHI
+じ	ジ	JI
 す	ス	SU
 ず	ズ	ZU
 せ	セ	SE
@@ -25,10 +25,10 @@
 ぞ	ゾ	ZO
 た	タ	TA
 だ	ダ	DA
-ち	チ	TI
-ぢ	ヂ	DI
-つ	ツ	TU
-づ	ヅ	DU
+ち	チ	CHI
+ぢ	ヂ	DZI
+つ	ツ	TSU
+づ	ヅ	DZU
 て	テ	TE
 で	デ	DE
 と	ト	TO
