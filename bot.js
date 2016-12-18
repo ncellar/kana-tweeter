@@ -40,7 +40,6 @@ var kanas = fs.readFileSync('kana.txt', 'utf8').split('\n');
 var variants = fs.readFileSync('variants.txt', 'utf8').split('\n');
 var index = Math.floor(Math.random() * (kanas.length - 1));
 var _a = kanas[index].split("\t"), hira = _a[0], kata = _a[1], roma = _a[2];
-console.log([hira, kata, roma]);
 var url = encodeURI("https://en.wikipedia.org/wiki/" + hira);
 var status = hira + " / " + kata + " : " + url;
 var T = new Twit({

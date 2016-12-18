@@ -7,8 +7,6 @@ let variants    = fs.readFileSync('variants.txt', 'utf8').split('\n')
 let index = Math.floor(Math.random() * (kanas.length - 1))
 let [hira, kata, roma] = kanas[index].split("\t")
 
-console.log([hira, kata, roma])
-
 let url = encodeURI(`https://en.wikipedia.org/wiki/${hira}`)
 let status = `${hira} / ${kata} : ${url}`
 
