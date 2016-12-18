@@ -1,21 +1,35 @@
 {
-  "//1": "https://docs.npmjs.com/files/package.json",
-
   "name": "kana-tweeter",
+  "author": "norswap",
   "version": "0.0.1",
   "description": "Bot that tweets one kana every hour",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "gifs": "node gifs.js"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.0.36",
+    "@types/es6-promise": "0.0.32",
+    "@types/node": "^6.0.52",
+    "@types/promisify-node": "^0.4.0",
+    "@types/request-promise-native": "^1.0.2",
+    "@types/twit": "^2.2.4"
   },
   "dependencies": {
+    "download-file": "^0.1.5",
+    "es6-promise": "^4.0.5",
+    "es6-promisify": "^5.0.0",
+    "gm": "^1.23.0",
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.3",
     "twit": "^2.2.5"
   },
   "engines": {
     "node": "6.9.1"
   },
   "repository": {
-    "url": "https://gomix.com/#!/project/kana-tweeter"
+    "url": "https://github.com/norswap/kana-tweeter"
   },
   "keywords": [
     "twitter",
